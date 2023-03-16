@@ -22,7 +22,6 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
-    console.log('laaaa');
   }, [contacts]);
 
   const getFilteredName = filterName => {
